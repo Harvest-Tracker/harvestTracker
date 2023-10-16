@@ -70,3 +70,12 @@ gem "tailwindcss-rails", "~> 2.0"
 gem "view_component", "~> 3.6"
 
 gem "rails_live_reload", "~> 0.3.4"
+
+
+gem "devise", "~> 4.9"
+gem "cancancan", "~> 3.5"
+gem "cypress-on-rails", "~> 1.16"
+gem "sidekiq", "~> 7.1"
+gem "faraday", "~> 2.7"
+gem "rspec-rails", "~> 6.0"
+gem "standardrb", "~> 1.0"

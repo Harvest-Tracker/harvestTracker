@@ -1,24 +1,28 @@
-# README
+# Harvest Tracker
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Welcome to the Harvest Tracker app! We're glad you're here!
 
-Things you may want to cover:
+The goal of this app is to improve the gardening experience for all.
 
-* Ruby version
+Whether it's a small plot or acres of plants and crops, the aim here is to create a social interface for gardeners.
 
-* System dependencies
+The average user will be able to:
 
-* Configuration
+- Create an account
+- Add their property
+- List any plots they're using for gardening/crops
+- Catalog all the crops/plants they have on their property
+- Create a visualization of when their producing plants are ready for harvest
+- View other users plants and plots
 
-* Database creation
+# Gems added
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Devise
+- CanCanCan
+- Cypress-on-Rails
+- Sidekiq
+- Faraday
+- Rspec-rails
+- StandardRb
+- View_component
+- Faker
