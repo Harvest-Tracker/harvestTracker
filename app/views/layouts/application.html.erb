@@ -6,15 +6,19 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
     <%= stylesheet_link_tag "tailwind", "inter-font", "data-turbo-track": "reload" %>
-
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
   </head>
-
   <body>
-    <main class="container mx-auto mt-28 px-5 flex">
-      <%= render NavbarComponent.new %>
-      <%= yield %>
+    <%= render HeaderComponent.new %>
+    <%= render NavbarComponent.new %>
+    <main class="border grid mx-auto mt-3 px-5 grid-cols-4 gap-3">
+      <div class='border col-span-3 p-2'>
+        <%= yield %>
+      </div>
+      <div class="col-span-1 border p-2">
+        <%= render SidebarComponent.new %>
+      </div>
     </main>
   </body>
 </html>
