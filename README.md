@@ -26,3 +26,12 @@ The average user will be able to:
 - StandardRb
 - View_component
 - Faker
+
+# How to setup/run this app locally
+
+- git clone
+- cd into `harvestTracker`
+- `bundle`
+- `bin/dev`
+
+By running the `bin/dev` command, you'll be able to see any changes you make in real time
