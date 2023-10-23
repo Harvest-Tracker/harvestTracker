@@ -79,3 +79,5 @@ gem "sidekiq", "~> 7.1"
 gem "faraday", "~> 2.7"
 gem "rspec-rails", "~> 6.0"
 gem "standardrb", "~> 1.0"
+
+gem "faker", "~> 3.2"
