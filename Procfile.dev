@@ -1,2 +1,5 @@
-web: bundle exec rdbg --open -n -c -- bundle exec rails s -p 3000
-css: bin/rails tailwindcss:watch[poll]
+# web: bundle exec rdbg --open -n -c -- bundle exec rails s -p 3000
+# css: bundle exec rails tailwindcss:watch[poll]
+
+web: bin/rails server -p 3000
+css: bin/rails tailwindcss:watch
