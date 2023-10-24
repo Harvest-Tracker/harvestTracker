@@ -81,3 +81,6 @@ gem "rspec-rails", "~> 6.0"
 gem "standardrb", "~> 1.0"
 
 gem "faker", "~> 3.2"
+
+gem "guard-livereload", "~> 2.5", :group => :development
+gem "rack-livereload", "~> 0.5.1", :group => :development
