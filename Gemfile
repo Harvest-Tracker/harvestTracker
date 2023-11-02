@@ -81,3 +81,5 @@ gem "faker", "~> 3.2"
 
 gem "guard-livereload", "~> 2.5", :group => :development
 gem "rack-livereload", "~> 0.5.1", :group => :development
+
+gem "figaro", "~> 1.2"
