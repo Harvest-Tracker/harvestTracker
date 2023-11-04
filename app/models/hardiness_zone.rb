@@ -1,0 +1,2 @@
+class HardinessZone < ApplicationRecord
+end

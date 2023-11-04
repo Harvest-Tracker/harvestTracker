@@ -1,1 +1,5 @@
 <div>Add Sidebar template here</div>
+<%= form_for :hardiness_zone, remote: true do |f| %>
+  <%= f.text_field :q %>
+  <%= button_tag "search", class: "rounded-full" %>
+<% end %>
