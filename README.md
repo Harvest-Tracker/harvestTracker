@@ -33,5 +33,6 @@ The average user will be able to:
 - cd into `harvestTracker`
 - `bundle`
 - `bin/dev`
+- navigate to `localhost:5555`
 
 By running the `bin/dev` command, you'll be able to see any changes you make in real time

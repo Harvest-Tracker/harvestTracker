@@ -1,5 +1,5 @@
-<div>Add Sidebar template here</div>
-<%= form_for :hardiness_zone, remote: true do |f| %>
-  <%= f.text_field :q %>
-  <%= button_tag "search", class: "rounded-full" %>
+<%= form_tag plants_path, method: :get do %>
+  <p>Search your zipcode for your hardiness zone</p>
+  <%= text_field_tag(:zipcode, params[:zipcode]) %>
+  <%= submit_tag("Search") %>
 <% end %>
