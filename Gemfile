@@ -83,3 +83,7 @@ gem "guard-livereload", "~> 2.5", :group => :development
 gem "rack-livereload", "~> 0.5.1", :group => :development
 
 gem "figaro", "~> 1.2"
+
+gem "foreman", "~> 0.87.2"
+
+gem "greensock-rails", "~> 1.20"
