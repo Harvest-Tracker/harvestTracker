@@ -32,7 +32,7 @@ The average user will be able to:
 - git clone
 - cd into `harvestTracker`
 - `bundle`
-- `bin/dev`
+- `bundle exec bin/dev`
 - navigate to `localhost:5555`
 
-By running the `bin/dev` command, you'll be able to see any changes you make in real time
+By running the `bundle exec bin/dev` command, you'll be able to see any changes you make in real time
