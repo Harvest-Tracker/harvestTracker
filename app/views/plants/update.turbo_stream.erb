@@ -1,0 +1,7 @@
+<%= turbo_stream.update "search_results" do %>
+  <div>
+    <h2>you searched for: <%= "#{@zone.zipcode}" %></h2>
+    <h2>And that hardiness zone is: <%= "#{@zone.zone}"  %></h2>
+    <h2>And that temperature range is: <%= "#{@zone.temperature_range}" %> </h2>
+  </div>
+<% end %>

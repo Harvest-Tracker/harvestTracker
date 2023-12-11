@@ -87,3 +87,5 @@ gem "figaro", "~> 1.2"
 gem "foreman", "~> 0.87.2"
 
 gem "greensock-rails", "~> 1.20"
+
+gem "rdbg", "~> 0.1.0"
