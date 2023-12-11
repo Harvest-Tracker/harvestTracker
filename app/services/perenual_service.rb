@@ -3,6 +3,10 @@ class PerenualService
     get_url("/api/species-list", params: {edible: true, poisonous: false, indoor: false})
   end
 
+  def hardiness_zone_search(zone:)
+    get_url("/api/species-list?hardiness=#{zone}", params: {})
+  end
+
   def get_url(url, params: nil)
     response = conn.get(url, params)
     JSON.parse(response.body, symbolize_names: true)

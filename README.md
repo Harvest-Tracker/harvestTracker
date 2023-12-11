@@ -32,7 +32,7 @@ The average user will be able to:
 - git clone
 - cd into `harvestTracker`
 - `bundle`
-- `bin/dev`
+- `rails db:{create,migrate}`
+- `bundle exec rake csv_load:populate_hardiness_zones` (will take about 1 minute)
+- `rails s`
 - navigate to `localhost:5555`
-
-By running the `bin/dev` command, you'll be able to see any changes you make in real time
