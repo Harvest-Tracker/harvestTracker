@@ -89,3 +89,7 @@ gem "foreman", "~> 0.87.2"
 gem "greensock-rails", "~> 1.20"
 
 gem "rdbg", "~> 0.1.0"
+
+gem 'omniauth-github', '~> 2.0.0'
+
+gem 'omniauth-rails_csrf_protection'
