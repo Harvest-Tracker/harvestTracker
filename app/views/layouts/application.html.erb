@@ -10,10 +10,12 @@
     <%= javascript_importmap_tags %>
   </head>
   <body>
-    <%= render HeaderComponent.new %>
+    <%= render HeaderComponent.new(current_user: current_user) %>
     <%= render NavbarComponent.new %>
     <main class="border grid mx-auto mt-3 px-5 grid-cols-4 gap-3">
       <div class='border col-span-3 p-2'>
+        <p class="notice"><%= notice %></p>
+        <p class="alert"><%= alert %></p>
         <%= yield %>
       </div>
       <div class="col-span-1 border p-2">
