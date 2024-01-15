@@ -1,0 +1,24 @@
+name: continuous_integration
+on:
+  pull_request:
+
+jobs:
+  lint_rb:
+    name: lint ruby
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Install Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+      - name: Install gems
+        run: |
+          sudo apt-get -yqq install libpq-dev
+          gem install bundler
+          bundle install --jobs 4 --retry 3
+      - name: Lint Ruby files
+        run: bundle exec standardrb
+      - name: Lint ERB files
+        run: bundle exec erblint --lint-all
