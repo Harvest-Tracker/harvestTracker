@@ -19,6 +19,6 @@ jobs:
           gem install bundler
           bundle install --jobs 4 --retry 3
       - name: Lint Ruby files
-        run: bundle exec standardrb
+        run: bundle exec standardrb --fix
       - name: Lint ERB files
         run: bundle exec erblint --lint-all
