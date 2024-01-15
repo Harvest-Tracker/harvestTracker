@@ -11,7 +11,7 @@
         <p>Signed in as: <%= link_to @current_user.first_name, user_path(@current_user) %></p>
       </div>
       <div>
-        <%= link_to "Sign out", destroy_user_session_path, data: {turbo_method: :delete} %>
+        <%= link_to "Sign out", destroy_user_session_path, data: { turbo_method: :delete } %>
       </div>
     <% else %>
       <div><%= link_to "Log in", new_user_session_path %></div>
