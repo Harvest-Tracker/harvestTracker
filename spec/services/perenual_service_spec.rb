@@ -9,12 +9,11 @@ RSpec.describe PerenualService do
       end
     end
 
-    describe '#hardiness_zone_search' do
+    describe "#hardiness_zone_search" do
       it "returns a list of search results for a given hardiness zone" do
         response = described_class.new.hardiness_zone_search(zone: 1)
         expect(response).to be_truthy
       end
     end
-
   end
 end
