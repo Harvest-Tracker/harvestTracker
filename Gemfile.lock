@@ -322,6 +322,10 @@ GEM
     rubocop-performance (1.19.1)
       rubocop (>= 1.7.0, < 2.0)
       rubocop-ast (>= 0.4.0)
+    rubocop-rails (2.22.1)
+      activesupport (>= 4.2.0)
+      rack (>= 1.1)
+      rubocop (>= 1.33.0, < 2.0)
     ruby-progressbar (1.13.0)
     ruby2_keywords (0.0.5)
     shellany (0.0.1)
@@ -418,6 +422,7 @@ DEPENDENCIES
   rdbg (~> 0.1.0)
   redis (~> 4.0)
   rspec-rails (~> 6.0)
+  rubocop-rails (~> 2.22)
   sidekiq (~> 7.1)
   sprockets-rails
   standardrb (~> 1.0)
